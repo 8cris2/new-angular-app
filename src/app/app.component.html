@@ -1,0 +1,12 @@
+<!-- 
+
+    Angular does not understand the [(ngModel)]="" data binding 
+    attribute so we need to import the angular FormsModule 
+    module into the app.module.ts file and add it to the 
+    imports array for it to work. 
+
+-->
+
+<input type="text" [(ngModel)]="myName" />
+<!-- angular data binding -->
+<p> {{ myName }} </p> 
